@@ -1,5 +1,5 @@
 VERSION=4.6.0
-DOCKER_REPO=radioastro/casa:$(VERSION)
+DOCKER_REPO=kernsuite/casa:$(VERSION)
 
 
 .PHONY: build clean run upload download
