@@ -1,4 +1,4 @@
-VERSION=4.6.0
+VERSION=4.5.3
 DOCKER_REPO=kernsuite/casa:$(VERSION)
 
 
