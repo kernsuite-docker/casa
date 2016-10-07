@@ -20,8 +20,8 @@ ADD ${RELEASE}.tar.gz /
 RUN ln -s ${RELEASE} /casa
 
 # copy empty casas config
-ADD casa /root/.casa
-
+RUN rm -rf /root
+ADD root /root
 
 WORKDIR /${RELEASE}/bin
 CMD ["casa"]
