@@ -1,4 +1,4 @@
-from kernsuite/base:dev
+from kernsuite/base:1
 MAINTAINER gijs@pythonic.nl
 
 RUN apt-get update && \
