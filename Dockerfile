@@ -7,7 +7,7 @@ RUN docker-apt-install libfreetype6 libsm6 libxi6 libxrender1 libxrandr2 libxfix
 # setup all required env variables
 ARG VERSION
 ENV VERSION=${VERSION}
-ENV RELEASE=casa-release-${VERSION}-el6
+ENV RELEASE=casa-release-${VERSION}.el6
 ENV USER root
 ENV HOME /root
 ENV PATH /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/${RELEASE}/bin
