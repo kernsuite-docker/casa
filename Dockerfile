@@ -1,4 +1,4 @@
-from kernsuite/base:4
+from kernsuite/base:dev
 
 RUN docker-apt-install casalite
 ENV USER root
