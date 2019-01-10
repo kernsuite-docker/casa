@@ -1,4 +1,4 @@
-VERSION := kern-dev
+VERSION := kern-5
 DOCKER_REPO := kernsuite/casa:$(VERSION)
 
 
@@ -12,6 +12,6 @@ build: download
 	docker build -t ${DOCKER_REPO} .
 
 
-run:
-	docker run -ti ${DOCKER_REPO}
+run: build
+	docker run -ti ${DOCKER_REPO} 
 
